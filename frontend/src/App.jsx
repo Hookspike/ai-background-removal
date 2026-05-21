@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Upload, Download, Image as ImageIcon, Loader2, Sparkles, CheckCircle } from 'lucide-react'
 import axios from 'axios'
 
-const API_URL = import.meta.env.VITE_API_URL || '/api'
+const API_URL = 'https://ai-background-removal-29hconrender.com'
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null)
