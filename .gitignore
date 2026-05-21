@@ -9,7 +9,7 @@ venv/
 ENV/
 .venv
 *.egg-info/
-dist/
+frontend/dist/
 build/
 
 # Node
@@ -20,7 +20,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # Vite
-dist/
+frontend/dist/
 dist-ssr/
 *.local
 
